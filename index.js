@@ -36,7 +36,7 @@ module.exports = {
       {
         multiline: {
           delimiter: "semi",
-          requireLast: false,
+          requireLast: true,
         },
         singleline: {
           delimiter: "semi",
