@@ -31,12 +31,14 @@ module.exports = {
     "@typescript-eslint/promise-function-async": ["error"],
     "@typescript-eslint/require-array-sort-compare": ["error"],
     "@typescript-eslint/restrict-plus-operands": ["error"],
+    semi: "off",
+    "@typescript-eslint/semi": ["off"],
     "@typescript-eslint/member-delimiter-style": [
       "error",
       {
         multiline: {
-          delimiter: "semi",
-          requireLast: true,
+          delimiter: "none",
+          requireLast: false,
         },
         singleline: {
           delimiter: "semi",
